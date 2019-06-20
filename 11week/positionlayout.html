@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>위치 속성 이용한 레이아웃</title>
+    <style media="screen">
+      * {
+        margin:0;
+        padding:0;
+      }
+      body {
+        background-color:#f2f0f0;
+        font-family:"맑은 고딕";
+        font-size:12px;
+        color:#444444;
+      }
+      ul {
+        list-style-type:none;
+      }
+      #header {
+        height:135px;
+        position:relative;
+        /* border:solid 1px #ff0000; */
+      }
+      #logo {
+        position:relative;
+        top:30px;
+        left:30px;
+        /* border:solid 1px #0000ff; */
+      }
+      #top_menu {
+        position:absolute;
+        top:40px;
+        left:250px;
+        /* border:solid 1px #0000ff; */
+      }
+      #top_menu li {
+        display:inline;
+      }
+      #main_menu {
+        position:relative;
+        top:30px;
+        font-size:12px;
+        color:#ffffff;
+        background-color:#4e4c4d;
+        margin-top:15px;
+        padding:12px;
+        text-align:center;
+        /* border:solid 1px #0000ff; */
+      }
+      #main_menu li {
+        padding:0 20px 0 20px;
+        display:inline;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="header">
+    <img id="logo" src="minzyartlogo.png">
+      <ul id="top_menu">
+        <li>로그인 ｜</li>
+        <li>회원가입 ｜</li>
+        <li>마이페이지 ｜</li>
+        <li>주문배송 조회 ｜</li>
+        <li>장바구니 ｜</li>
+        <li>이용안내 ｜</li>
+        <li>고객센터</li>
+      </ul>
+      <ul id="main_menu">
+        <li>회원가입 폼 만들기</li>
+        <li>페이지레이아웃</li>
+        <li>명화 신규상품소개</li>
+        <li>씨앗판매</li>
+      </ul>
+    </div>
+  </body>
+</html>

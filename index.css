@@ -1,0 +1,131 @@
+* {
+  margin:0;
+  padding:0;
+}
+a:visited {
+  list-style-type:none;
+  color: white;
+}
+a:link {
+  text-decoration:none;
+  color: white;
+}
+header a:hover {
+  color: #ce3489;
+}
+a {
+  font-weight:bold;
+}
+body {
+  font-family:"나눔스퀘어";
+  font-size:100%;
+}
+body img {
+  float:left;
+  margin:0 0 0 380px;
+}
+[class*="c_"] {
+  float:left;
+  padding:10px;
+}
+/* 너비가 600픽셀 미만인 스마트폰을 위한 기본 설정 */
+[class*="c_"] {
+  width:100%;
+}
+/* 너비가 600픽셀 미만인 태블릿을 위한 설정 */
+@media only screen and (min-width: 600px) {
+  .c_m_1 {width:8.33%;}
+  .c_m_2 {width:16.66%;}
+  .c_m_3 {width:25%;}
+  .c_m_4 {width:33.33%;}
+  .c_m_5 {width:41.66%;}
+  .c_m_6 {width:50%;}
+  .c_m_7 {width:58.33%;}
+  .c_m_8 {width:66.66%;}
+  .c_m_9 {width:75%;}
+  .c_m_10 {width:83.33%;}
+  .c_m_11 {width:91.66%;}
+  .c_m_12 {width:100%;}
+}
+/* 너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등 */
+@media only screen and (min-width: 768px) {
+  .c_1 {width:8.33%;}
+  .c_2 {width:16.66%;}
+  .c_3 {width:25%;}
+  .c_4 {width:33.33%;}
+  .c_5 {width:41.66%;}
+  .c_6 {width:50%;}
+  .c_7 {width:58.33%;}
+  .c_8 {width:66.66%;}
+  .c_9 {width:75%;}
+  .c_10 {width:83.33%;}
+  .c_11 {width:91.66%;}
+  .c_12 {width:100%;}
+}
+header {
+  height:960px;
+  background-image:url("background1.png");
+  background-repeat: no-repeat;
+}
+header #logo {
+  float:left;
+  margin:30px 0 0 40px;
+}
+header nav ul {
+  margin-top:25px;
+}
+header nav li {
+  display:inline;
+}
+header nav li.item {
+  margin-left:115px;
+}
+header #nav {
+  float:right;
+  margin:40px 80px 0 0;
+}
+header #nav li {
+  display:inline;
+  font-size:13px;
+  color: #ffffff;
+}
+header #nav img {
+  float:right;
+  margin:0 0 0 20px;
+}
+h1 {
+  font-family:"나눔스퀘어";
+  font-weight:bold;
+  font-size:90px;
+  color:#ffffff;
+  margin-left:140px;
+  margin-top:200px;
+}
+h2 {
+  font-family:"나눔스퀘어";
+  font-weight:bold;
+  font-size:25px;
+  color:#000000;
+  margin-left:900px;
+  margin-top:5px;
+}
+ul {
+  list-style-type:none;
+  font-size:10px;
+  margin-left:900px;
+  margin-top:30px;
+  color:#000000;
+}
+footer {
+  font-family:"나눔스퀘어";
+  font-size:13px;
+  height:40px;
+  clear:both;
+  text-align:center;
+  background-color:#d8a9c3;
+  color:#ffffff;
+}
+#top_div {
+  position: fixed;
+  margin:665px 0 0 1015px;
+		}
